@@ -49,10 +49,20 @@
 }
 
 
-@media(max-width: 860){
+@media (max-width: 860px){
     .containerGerador{
         height: 55vh;
         width: 50%;
+    }
+}
+
+@media(max-width: 500px){
+    .containerGerador{
+        height: 60vh;
+        width: 90%;
+    }
+    .containerGerador span{
+        height: 15vh;
     }
 }
 
