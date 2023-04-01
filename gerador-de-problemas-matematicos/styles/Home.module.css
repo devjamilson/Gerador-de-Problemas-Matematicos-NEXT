@@ -31,6 +31,38 @@
     font-size: 18px;
 }
 
+@media (max-width: 900px){
+    .containerGerador{
+        height: 55vh;
+        width: 40%;
+    }
+
+    .containerGerador span{
+        height: 10vh;
+    }
+
+    .containerGerador button{
+        height: 3vh;
+        padding: 0px 10px;
+    }
+
+}
+
+
+@media(max-width: 860){
+    .containerGerador{
+        height: 55vh;
+        width: 50%;
+    }
+}
+
+.containerResolver{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
 .containerGerador button{
     background-color: #746CFF;
     border-radius: 7px;
@@ -42,6 +74,7 @@
     color: #fff;
     font-weight: bolder;
 }
+
 
 .containerGerador input{
     border-radius: 7px;

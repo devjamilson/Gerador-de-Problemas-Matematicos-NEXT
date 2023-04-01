@@ -59,7 +59,7 @@ export default function Home() {
         <div className={styles.containerGerador}>
           <span>{pergunta}</span>
           <button onClick={Gerar}>Gerar Problema</button>
-          <div>
+          <div className={styles.containerResolver}>
             <input placeholder='Informe o resultado' value={valor} onChange={valorDigitado}/>
             <button onClick={Resolver}>Resolver</button>
           </div> 
